@@ -1,0 +1,369 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'nunito' , sans-serif ;
+}
+ .container {
+    width: 1250px;
+    margin: auto;
+ }
+ @media ( max-width:767px ){ /*X- Small Screen Rules*/
+.container {
+    width:100%;
+ }
+ p,h1,h2,h3,h4.h5.h6{
+     text-align: center;
+      }
+ }
+  @media (min-width:768px) and (max-width:991px){ /*Small Screen Rules*/
+.container {
+    width:750px;
+ }
+ }
+  @media (min-width:992) and (max-width:1199px){ /*Medium Screen Rules*/
+.container {
+    width:970px;
+ }
+ }
+  @media (min-width:1200px){ /*Large Screen Rules*/
+.container {
+
+ }
+ }
+ .custom-btn
+ {
+     background: none;
+     border: none;
+     color: #FFF;
+     background: #16A085 ;
+     text-transform: uppercase;
+     font-size: 22px;
+     padding: 10px 30px;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: all .3s ease-in-out;
+
+ }
+ @media ( max-width:767px ){
+     .custom-btn{
+         margin: auto;
+         display: block;
+     }
+ }
+ .custom-btn:hover{
+     background: #ff7777;
+        
+    }
+ UL {
+     list-style: none;
+ }
+ .clear{
+     clear: both;
+ }
+ /* Header =====================*/
+ header {
+background-image: url(../images/HEADER.PNG);
+color: #FFF;
+ text-align: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+ }
+  header nav {
+padding-top: 50px;
+  } 
+
+  header nav ul {
+
+  }
+  header nav ul li {
+      display: inline-block;
+      margin: 0 70PX;
+  }
+  header nav ul li a{
+      color: #FFF;
+      text-decoration:none;
+  }
+  header nav ul li a img{
+      
+  }
+   header .title{
+margin: 170px;
+   }
+   header.title h1{
+
+   }
+    header .title span{
+     display: block;
+    }
+    header .title button{
+     
+        margin-top: 50px;
+        
+        
+    }
+    
+    header ul.social{
+        margin-top: 150px;
+    }
+     header ul.social li{
+         display: inline-block;
+    }
+
+  header ul.social li a{ 
+      color: #FFF;
+    }
+ header ul.social li a i{ 
+     font-size: 25px;
+      margin: 20px 10px;
+    }
+    
+
+
+
+
+    @media (max-width:767px){
+header nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+    }
+     @media (min-width:768px) and (max-width:991px){
+      header nav ul li {
+      margin: 0 30px;
+  }
+  }
+     @media (min-width:992px) and (max-width:1199px){ 
+         header nav ul li {
+      margin: 0 50px;
+  }
+  
+  }
+ 
+     
+    /*-----------LIFE------------*/
+     .life{
+padding: 100px 0;
+background-image: url(../images/part2.png);
+background-repeat: no-repeat;
+background-size: cover;
+     }
+      .life .head-section{
+         width: 600px;
+     }
+      @media ( max-width:767px ){
+          .life .head-section{
+         width:80%;
+         margin: auto;
+     }
+      }
+     .head-section h2{
+         color:#16A085;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+     }
+     .head-section p{
+         color:#c2c3c4;
+         margin-bottom: 40px;
+         line-height: 29px;
+     }
+     .head-section p span{ 
+         color: #222;
+     }
+     .head-section button{
+
+     }
+     /*.....Design......*/
+      .desgin{
+        padding-top: 100px;
+      }
+     .desgin .content{
+        float: left;
+        width: 50%; 
+     }
+     .desgin .content img{
+
+     }
+     .desgin .content .head-section{
+margin-top: 50px;
+     }
+
+     @media(max-width:690px){
+         .desgin{
+        padding: 100px 0;
+      }
+         .desgin .content{
+        float: none;
+        width: 100%; 
+     }
+     .desgin .content img{
+            width: 100%;
+     }
+     }
+     /*--------works---------*/
+     .works {
+        background-color: #f5f6f7;
+        padding: 100px 0;
+        overflow: hidden;
+     }
+      .works .box {
+         float: left;
+         width: 33.333%;
+         text-align: center;         
+     }
+      .works img {
+        
+         
+     }
+      .works .box h3{
+         color: #373737;
+         text-transform: uppercase;
+         margin: 20px 0;
+     }
+      .works .box p{
+         color: #D0C3C4;
+         width: 200px;
+         margin: auto;
+     }
+     @media (max-width:1199px){
+         .works .box {
+         width: 50%;
+         margin-bottom: 20px;      
+     }
+     }
+     @media (max-width:770px){
+         .works .box {
+         width: 100%;
+        float: none;     
+     }
+      .works .box img {
+        max-width: 100%;
+     }
+     }
+      
+/* Subscribe
+=======================*/
+.subscribe{
+    background-repeat: no-repeat;
+    background-size: cover;
+background-image: url(../images/subscribe.png);
+height: 100vh;
+text-align: center;
+color: #fff; 
+background-attachment: fixed;
+}
+.subscribe form{
+padding-top: 50vh;
+}
+.subscribe form h2{
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+.subscribe form input{
+height: 50px;
+width: 200px;
+padding: 0 10px;
+border: 1px solid #16A085;
+
+}
+.subscribe form a{
+color: #fff;
+}
+.subscribe form i{
+width: 50px;
+height: 50px;
+line-height: 50px;
+margin-left: -5px;
+background-color: #16A085;
+}
+@media (max-width:319px){
+    .subscribe form a{
+display: block;
+} 
+.subscribe form i{
+width: 80%;
+}
+.subscribe form input{
+    width: 80%;
+    margin: 20px 0;
+}
+}
+/* download
+=======================*/
+.download {
+   padding: 100px 0; 
+   text-align: center;
+ background-color: #f5f6f7;
+}
+.download h2{
+ color: #3D3835;   
+ text-transform: uppercase;
+}
+.download p{
+    color: #CCC3D6;
+    line-height: 29PX;
+    margin-bottom: 20PX;
+}
+.download button {
+    margin: 0 10PX;
+}
+.download button i {
+    margin-left: 10PX;
+} 
+@media(max-width:769px){
+    .download button {
+    margin:10PX auto;
+
+}
+}
+/*======Footer=========*/
+footer{
+padding: 50px 0;
+overflow: hidden;
+}
+footer .links{
+float: left;
+font-weight: bold;
+}
+footer .links ul{
+
+}
+footer .links ul li{
+display: inline-block;
+}
+footer .links ul li a{
+color: #000204;
+text-transform: lowercase;
+text-decoration: none;
+}
+footer .links ul li:after{
+content: " | ";
+}
+footer .links ul li:last-child:after{
+content: none;
+}
+footer .logo{
+float: right;
+}
+footer .logo a{
+
+}
+footer .logo img{
+
+}
+@media (max-width:490px)
+{
+    footer .logo , footer .links {
+width: 100%;
+float: none;
+}
+footer .logo img{
+display: block;
+margin: 10px auto;
+}
+footer .links ul {
+    text-align: center;
+}
+}
